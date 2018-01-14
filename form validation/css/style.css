@@ -1,0 +1,42 @@
+/*@author muhammad fajar saputra 01110216020
+yang ngambil source code tanpa ngasih sumbernya semoga
+cepat dapat hidayah, amin... */
+
+input[type=text], input[type=password], input[type=number], input[type=time]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.container {
+    padding: 16px;
+}
+
+.submit {
+  cursor: pointer;
+  display: inline-block;
+  padding: 14px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  background-color: #4CAF50;
+  color: white;
+}
+.form-hasil {
+  display: block;
+  width: 100%;
+  padding: 6px 2px;
+  margin-bottom: 15px;

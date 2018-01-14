@@ -1,0 +1,33 @@
+/*@author muhammad fajar saputra 01110216020
+yang ngambil source code tanpa ngasih sumbernya semoga
+cepat dapat hidayah, amin... */
+body{
+  background-color: #ffffff;
+}
+
+.button {
+    background-color: #282d48;
+    color: white;
+    padding: 9px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#div{
+  padding: 30px;
+  background-color: #5d698a;
+  color: white;
+  width: 350px;
+  font-family:cursive;
+  border-radius: 15px;
+  margin-top: 200px;
+  margin-left: 450px;
+}
+
+#footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+}

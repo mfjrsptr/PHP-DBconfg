@@ -1,0 +1,39 @@
+<!--
+	@author muhammad fajar saputra 01110216020
+
+	yang ngambil source code tanpa ngasih sumbernya semoga
+	cepat dapat hidayah, amin...
+
+-->
+<html>
+    <head>
+      <title>Konversi Format Uang</title>
+      <script type="text/javascript" src="js/otentikasi.js"></script>
+      <link rel="stylesheet" href="css/mystyle.css">
+    </head>
+  <body>
+    <table>
+          <tr class="row_name">
+            <td>Masukkan Nilai</td>
+            <td>Valas</td>
+            <td>Nilai Rupiah</td>
+          </tr>
+          <tr class="row_1">
+        <form name="form1" action="#">
+        <td><input type="text" name="x" placeholder="masukan nilai.." class="size"/></td>
+        <td><select name="opt" class="size">
+        <option value="dollar"> Dollar US </option>
+        <option value="dollar sg"> Dollar Singapore </option>
+        <option value="ringgit"> Ringgit Malaysia </option>
+        <option value="yen"> Yen Jepang </option>
+        <option value="euro"> Euro </option>
+        <option value="riyal"> Riyal Arab Saudi </option>
+      </select></td>
+        <td><input type="text" name="hasil" disabled="true" class="size"/></td>
+      </tr class="row_2">
+      <tr><td>
+        <input type="button" value="hasil" onClick="hitung()" class="button"/></td></tr>
+        </form>
+      </table>
+    </body>
+</html>
